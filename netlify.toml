@@ -4,4 +4,4 @@
   publish="/dist"
 
 [context.production]
-     command = "EXPORT API_BACKEND=TEST && node print.js"
+     command = "export API_BACKEND=TEST && node print.js"
