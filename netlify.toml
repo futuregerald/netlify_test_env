@@ -4,4 +4,4 @@
   publish="/dist"
 
 [context.production]
-     command = "export API_BACKEND=TEST && node print.js"
+     command = "export API_BACKEND='This is from netlify.toml' && node print.js"
