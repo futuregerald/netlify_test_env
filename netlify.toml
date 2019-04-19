@@ -1,6 +1,6 @@
 [build]
   command = "node print.js"
-  functions = "/functions/"
+  functions = "functions"
   publish="/dist"
 
 [context.production]
